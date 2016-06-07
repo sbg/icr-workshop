@@ -42,6 +42,9 @@ All this will be done using the [Cancer Genomics Cloud](https://cgc.sbgenomics.c
 To import the CWL on your project, Go on the `Apps` and click on `add new tool`.
 Then click on Import Json, and import from URL: https://raw.githubusercontent.com/sbg/maftools/cwl-desciption/maftools.cwl.json
 
+
+![Import Json](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-editor-import.png)
+
 # Plots produced by the visualizeMaf application
 
 After the application is launched, you can expect two main outputs:
