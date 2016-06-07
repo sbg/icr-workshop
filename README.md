@@ -5,6 +5,8 @@
 - Select MAF files from the Pancreatic Adenocarcinoma
 - Use MafTools to visualize the MAF file
 
+All this will be done using the [Cancer Genomics Cloud](https://cgc.sbgenomics.com/) (CGC for short.)
+
 # Selecting the file via the Data Browser
 
 ## Starting from Case
