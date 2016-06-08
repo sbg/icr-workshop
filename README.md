@@ -1,4 +1,4 @@
-# Visualizing MAF file from the TGCA data
+# Visualizing MAF file from the TCGA data
 
 ## Objectives:
 
