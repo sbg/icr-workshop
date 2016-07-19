@@ -7,34 +7,29 @@
 
 All this will be done using the [Cancer Genomics Cloud](https://cgc.sbgenomics.com/) (CGC for short.)
 
-# Selecting the file via the Data Browser
 
-## Starting from Case
-![Starting from Case](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-case-selection-step1.png)
+# Overview video
+![Overview video](img/2016-07-19-CGC-ICR-Workshop-screencast.gif)
 
-## Selecting Diagnosis
-![Selecting Diagnosis](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-hasDiagnosis-step2.png)
+# Step-by-step instructions
+
+## Selecting a case
+![Starting from Case](img/CGC-Case-selected-step2.png)
+
+## Selecting Disease
+![Selecting Diagnosis](img/CGC-hasDisease-step3.png)
 
 ## Selecting Pancreatic Adenocarcinoma
-![Selecting Pancreatic Adenocarcinoma](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-diagnosis-filter-step3.png)
+![Selecting Pancreatic Adenocarcinoma](img/CGC-findDisease-step4.png)
 
-## Selecting Files
-![Selecting Files](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-hasFile-step4.png)
+## Selecting open access files
+![Selecting Files](img/CGC-hasAccess-step5.png)
 
-## Selecting AccessLevel Node
-![Selecting AccessLevel Node](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-hasAccessLevel-step5.png)
+## Selecting data format
+![Selecting data format](img/CGC-hasDataFormat-step6.png)
 
-## Selecting Open Files only
-![Selecting Open Files only](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-hasAccessLevelFilter-step6.png)
-
-## Selecting Data Format Node
-![Selecting Data Format Node](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-hasDataFormat-step7.png)
-
-## Selecting only MAF files
-![Selecting only MAF files](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-dataFormatFilter-step8.png)
-
-## How the whole query looks like
-![How the whole query looks like](https://raw.githubusercontent.com/sbg/icr-workshop/master/img/CGC-queryCompleted.final.png)
+## The final query results
+![How the whole query looks like](img/CGC-finalQuery-step7.png)
 
 
 # Import the CWL description of the tool
