@@ -1,6 +1,6 @@
 # Visualizing MAF files from TCGA data
 
-The [Mutation Annotation Format (MAF)](http://www.broadinstitute.org/igv/MutationAnnotationFormat) is used by the TCGA project to annotate somatic mutations (e.g. missense or frameshift mutations) in different types of cancer.
+The [Mutation Annotation Format (MAF)](http://www.broadinstitute.org/igv/MutationAnnotationFormat) is used by the [TCGA project](https://gdc.nci.nih.gov/cancer-genome-atlas-tcga) to annotate somatic mutations (e.g. missense or frameshift mutations) in different types of cancer.
 In order to visualize these data, we use [maftools](http://poisonalien.github.io/). [maftools](http://poisonalien.github.io/) provides both summarizing statistics and various plots
 to get an overview of the data. In this tutorial you will learn how to access MAF files from the Pancreatic Adenocarcinoma, add them to a project on the [Cancer Genomics Cloud](https://cgc.sbgenomics.com/) (CGC for short), run [maftools](http://poisonalien.github.io/) and visualize some results.
 
@@ -13,7 +13,7 @@ to get an overview of the data. In this tutorial you will learn how to access MA
 
 # 1. How to query TGCA data
 
-The CGC platform allows you to query the TGCA dataset in an easy and visual way. This short video illustrates how to select a subset of cases based on a combination of different critera. Here we select case files:
+The CGC platform allows you to query the TGCA dataset in an easy and visual way. This short video illustrates how to select a subset of cases based on a combination of different critera. Here we select case files
 
 - with a diagnosis of Pancreatic Adenocarcinoma (`Disease type`)
 - that are open access (`Access level`)
@@ -36,7 +36,7 @@ Here, please select the red `Case` category.
 
 ## Selecting Disease
 
-After selecting the `Case category`, please click on the purple `File` category to add properties to the query. In a first step, please select the "Disease type" category and search for Pancreatic Adenocarcinoma
+After selecting the `Case category`, please click on the purple `File` category to add properties to the query. In a first step, please select the `Disease type` category and search for Pancreatic Adenocarcinoma
 ![Selecting Diagnosis](img/CGC-hasDisease-step3.png)
 
 ## Selecting Pancreatic Adenocarcinoma
@@ -59,7 +59,7 @@ This is the finished query:
 
 # 2. Import the files into a project
 
-After selecting files, we add the files to our project called `maf_exploration`
+After selecting files, we add the files to our project called `maf_exploration`.
 
 ## Add files to the project
 
@@ -86,7 +86,11 @@ Then select the button right next to run shown three dots on the top right. A me
 
 # 4. Run Maftools
 
-After importing [maftools](http://poisonalien.github.io/) using the instructions above, you can now select one of the input files you added to the project and run maftools. This small video illustrates the process:
+After importing [maftools](http://poisonalien.github.io/) using the instructions above, you can now select one of the input files you added to the project and run maftools. 
+
+First, you select `Apps` from the tabs menu, then select `maftools`. This page presents an overview of the tools, usually contains some documentation and describes which input files and parameters are needed. Next, please click the green `Run` button on the top right. In the `Set input data` tab, please select one of the `MAF` files you added to the project. Now, click `Run` again and confirm your action. This submits the task and we now can relax, lean back and wait until our task has finished.
+
+This small video illustrates the process:
 
 ![Run maftools](img/2016-07-19-CGC-ICR-Workshop-screencast-runApp.gif)
 
@@ -98,5 +102,5 @@ After the application is launched, you can expect two main outputs:
 - [SummaryPlot](https://github.com/sbg/icr-workshop/blob/master/img/example_summaryPlot.pdf)
 - [OncoPlot and TiTv](https://github.com/sbg/icr-workshop/blob/master/img/example_oncoplot_and_titv.pdf)
 
-A description of all plots is available on the [maftools homepage in the visualization section](http://poisonalien.github.io/#visualization.).
+A description of all plots is available on the maftools homepage [in the visualization section](http://poisonalien.github.io/#visualization.).
 
