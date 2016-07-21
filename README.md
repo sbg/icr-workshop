@@ -86,7 +86,9 @@ Then select the button right next to run shown three dots on the top right. A me
 
 # 4. Run Maftools
 
-TBD
+After importing [maftools](http://poisonalien.github.io/) using the instructions above, you can now select one of the input files you added to the project and run maftools. This small video illustrates the process:
+
+![Run maftools](img/2016-07-19-CGC-ICR-Workshop-screencast-runApp.gif)
 
 
 # Plots produced by the visualizeMaf application
@@ -96,4 +98,5 @@ After the application is launched, you can expect two main outputs:
 - [SummaryPlot](https://github.com/sbg/icr-workshop/blob/master/img/example_summaryPlot.pdf)
 - [OncoPlot and TiTv](https://github.com/sbg/icr-workshop/blob/master/img/example_oncoplot_and_titv.pdf)
 
+A description of all plots is available on the [maftools homepage in the visualization section](http://poisonalien.github.io/#visualization.).
 
