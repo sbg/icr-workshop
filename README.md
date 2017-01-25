@@ -1,8 +1,8 @@
 # Visualizing MAF files from TCGA data
 
-The [Mutation Annotation Format (MAF)](http://www.broadinstitute.org/igv/MutationAnnotationFormat) is used by the [TCGA project](https://gdc.nci.nih.gov/cancer-genome-atlas-tcga) to annotate somatic mutations (e.g. missense or frameshift mutations) in different types of cancer.
-In order to visualize these data, we use [maftools](http://poisonalien.github.io/). [maftools](http://poisonalien.github.io/) provides both summarizing statistics and various plots
-to get an overview of the data. In this tutorial you will learn how to access MAF files from the Pancreatic Adenocarcinoma, add them to a project on the [Cancer Genomics Cloud](https://cgc.sbgenomics.com/) (CGC for short), run [maftools](http://poisonalien.github.io/) and visualize some results.
+The [Mutation Annotation Format (MAF)](https://wiki.nci.nih.gov/display/TCGA/Mutation+Annotation+Format+(MAF)+Specification) is used by the [TCGA project](https://gdc.nci.nih.gov/cancer-genome-atlas-tcga) to annotate somatic mutations (e.g. missense or frameshift mutations) in different types of cancer.
+In order to visualize these data, we use [maftools](https://github.com/PoisonAlien/maftools). [maftools](https://github.com/PoisonAlien/maftools) provides both summarizing statistics and various plots
+to get an overview of the data. In this tutorial you will learn how to access MAF files from the Pancreatic Adenocarcinoma, add them to a project on the [Cancer Genomics Cloud](https://cgc.sbgenomics.com/) (CGC for short), run [maftools](https://github.com/PoisonAlien/maftools) and visualize some results.
 
 ## Objectives:
 
@@ -74,7 +74,7 @@ Files are listed in the `Files` tab in the `maf_exploration` project
 
 # 3. Import Maftools
 
-In this step, you will run [maftools](http://poisonalien.github.io/) to produce some summary statistics and plots for the input MAF files.
+In this step, you will run [maftools](https://github.com/PoisonAlien/maftools) to produce some summary statistics and plots for the input MAF files.
 
 ## Import the CWL description of the tool
 
@@ -86,7 +86,7 @@ Then select the button right next to run shown three dots on the top right. A me
 
 # 4. Run Maftools
 
-After importing [maftools](http://poisonalien.github.io/) using the instructions above, you can now select one of the input files you added to the project and run maftools. 
+After importing [maftools](https://github.com/PoisonAlien/maftools) using the instructions above, you can now select one of the input files you added to the project and run maftools. 
 
 First, you select `Apps` from the tabs menu, then select `maftools`. This page presents an overview of the tools, usually contains some documentation and describes which input files and parameters are needed. Next, please click the green `Run` button on the top right. In the `Set input data` tab, please select one of the `MAF` files you added to the project. Now, click `Run` again and confirm your action. This submits the task and we now can relax, lean back and wait until our task has finished.
 
@@ -102,5 +102,5 @@ After the application is launched, you can expect two main outputs:
 - [SummaryPlot](https://github.com/sbg/icr-workshop/blob/master/img/example_summaryPlot.pdf)
 - [OncoPlot and TiTv](https://github.com/sbg/icr-workshop/blob/master/img/example_oncoplot_and_titv.pdf)
 
-A description of all plots is available on the maftools homepage [in the visualization section](http://poisonalien.github.io/#visualization.).
+A description of all plots is available on the maftools homepage [in the visualization section](http://www.bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html#visualization.).
 
